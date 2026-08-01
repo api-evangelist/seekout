@@ -1,0 +1,53 @@
+# SeekOut
+
+> SeekOut is the agentic AI recruiting platform that helps talent acquisition teams source, screen, and engage candidates at scale. Used by 750+ leading customers including Microsoft, DocuSign, Sony, and Thomson Reuters.
+
+## Products
+
+- **SeekOut Recruit**: AI recruiting platform for sourcing, screening, and engaging talent. Access 1B+ candidate profiles with AI-powered search, inbound evaluation, and personalized outreach. https://www.seekout.com/solutions/recruit
+- **SeekOut Spot**: AI recruiting service combining agentic AI with expert recruiters to deliver interview-ready candidates in 2 weeks at 70% lower cost than traditional agencies. https://www.seekout.com/solutions/spot
+- **SeekOut Sam**: AI-powered inbound evaluation that reviews every applicant in seconds and surfaces best-fit candidates with explainable decisions. https://www.seekout.com/solutions/sam (free trial interview: https://www.seekout.com/try-sam)
+- **SeekOut MCP**: Use SeekOut inside Claude, ChatGPT, Gemini, Copilot, and any MCP-compatible AI assistant. 14 built-in recruiting workflows across 6 data sources. https://www.seekout.com/solutions/mcp
+
+## Capabilities
+
+- Agentic AI Recruiting: AI agents that find, evaluate, and engage candidates autonomously. https://www.seekout.com/capabilities/agentic-ai-recruiting
+- External Sourcing: Search 1B+ profiles by skills, experience, licenses, certifications. https://www.seekout.com/capabilities/external-sourcing
+- Rediscover Applicants: Reconnect with past candidates already in your ATS. 44% of great hires already exist in your system. https://www.seekout.com/capabilities/rediscover-applicants
+- Expert Recruiters: AI sourcing guided by experienced recruiting professionals. https://www.seekout.com/capabilities/expert-recruiters
+- Cleared Talent: Source 3.7M+ security-cleared candidates for defense and government roles. https://www.seekout.com/capabilities/source-cleared-talent
+- Healthcare Recruiting: Recruit from the largest pool of healthcare workers. https://www.seekout.com/capabilities/healthcare
+- Spot for Startups: Hire faster with no new tools or added friction. https://www.seekout.com/capabilities/spot-for-startups
+- Chrome Extension: Source and enrich candidate profiles from any website. https://www.seekout.com/chrome-extension
+
+## Key Stats
+
+- 1B+ candidate profiles
+- 750+ leading customers
+- 5x more candidates evaluated vs. traditional methods
+- 50% faster time-to-fill
+- 70% lower cost vs. traditional recruiting agencies
+- <2 minutes to set up AI screening (Sam)
+- 14 built-in MCP recruiting workflows
+
+## Resources
+
+- Blog: https://www.seekout.com/blog
+- Customer Stories: https://www.seekout.com/customers
+- Resource Hub: https://www.seekout.com/resources
+- Responsible AI: https://www.seekout.com/responsible-ai
+- Release Notes: https://www.seekout.com/release-notes
+- Help Center: https://support.seekout.com/
+- Trust Center: https://trust.seekout.com/
+
+## Company
+
+- Founded: 2017
+- Headquarters: 1100 112th Ave NE, Ste 150, Bellevue, WA 98004
+- About Us: https://www.seekout.com/about-us
+- Why SeekOut: https://www.seekout.com/why-seekout
+- Careers: https://www.seekout.com/company/careers
+- Partners: https://www.seekout.com/partners
+- Contact: https://www.seekout.com/contact-us
+- Pricing: https://www.seekout.com/pricing
+- Free Trial: https://www.seekout.com/free-trial

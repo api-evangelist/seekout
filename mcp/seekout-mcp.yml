@@ -1,0 +1,43 @@
+generated: '2026-07-21'
+method: searched
+status: published
+source: https://www.seekout.com/solutions/mcp
+server:
+  name: seekout
+  vendor: SeekOut
+  transport: http            # remote/hosted MCP server; exact endpoint URL is provisioned from within the SeekOut app, not published on the marketing page
+  url: null                  # not publicly disclosed; connection configuration is generated for the signed-in SeekOut account
+  auth: seekout-account      # "Sign in with your SeekOut account. No API keys needed for standard use."
+  description: >-
+    Hosted MCP server that exposes SeekOut's recruiting platform (1B+ candidate
+    profiles across 6 data sources) to MCP-compatible AI assistants. 14 built-in
+    recruiting workflows.
+  clients:
+    - Claude
+    - ChatGPT (with MCP support)
+    - Gemini (with MCP support)
+    - Microsoft 365 Copilot
+    - Llama
+    - any MCP-compatible assistant
+# Tool/workflow surface as described on the marketing/MCP page and llms.txt (14 built-in workflows).
+# Names are our labels for the described capabilities; SeekOut does not publish the exact tool identifiers.
+tools:
+  - name: search_candidates
+    description: Search 1B+ candidate profiles by skills and experience.
+  - name: analyze_talent_market
+    description: Analyze talent market data across locations.
+  - name: compare_candidate_pools
+    description: Compare candidate pools.
+  - name: evaluate_applicants
+    description: Evaluate applicants against role requirements.
+  - name: enrich_profiles
+    description: Enrich candidate profiles with additional data.
+  - name: generate_outreach
+    description: Generate personalized outreach messages.
+notes: >-
+  SeekOut publishes a real, hosted MCP server marketed as "SeekOut MCP"
+  (blog: "SeekOut MCP is Here: Search 1B+ Profiles from the AI Assistant You
+  Already Use"). It is authenticated with a SeekOut account rather than API keys.
+  The precise remote endpoint URL and exact tool identifiers are not published on
+  the public marketing surface; the six tools above are the described workflows,
+  not fabricated identifiers.

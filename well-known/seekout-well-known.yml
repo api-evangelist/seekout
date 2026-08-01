@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: searched
+source: https://app.seekout.io/.well-known/
+host: https://app.seekout.io
+documents:
+  - path: /.well-known/security.txt          # RFC 9116
+    status: 200
+    file: seekout-security.txt
+  - path: /.well-known/openid-configuration   # OIDC discovery
+    status: 404                               # 200 status is the SPA catch-all (text/html), not a real OIDC document
+  - path: /.well-known/oauth-authorization-server  # RFC 8414
+    status: 404                               # SPA catch-all HTML, no real document
+  - path: /.well-known/api-catalog            # RFC 9727
+    status: 404                               # SPA catch-all HTML, no real document
+  - path: /.well-known/ai-plugin.json
+    status: 404                               # SPA catch-all HTML, no real document
+notes: >-
+  Only /.well-known/security.txt returns a real document (RFC 9116, text/plain).
+  All other /.well-known paths return HTTP 200 but serve the single-page-app
+  fallback HTML (Seekout: Discover and reach candidates faster.), so they are
+  recorded as effectively absent (404) to avoid capturing catch-all noise.
+  seekout.com/.well-known/* redirects (301) to app.seekout.io and 404s there.
