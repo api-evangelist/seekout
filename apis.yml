@@ -11,6 +11,17 @@ description: >-
   into Claude, ChatGPT, Gemini, and Microsoft 365 Copilot. SeekOut is used by 750+
   customers including Microsoft, DocuSign, Sony, and Thomson Reuters.
 url: https://raw.githubusercontent.com/api-evangelist/seekout/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
