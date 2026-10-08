@@ -1,0 +1,56 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.seekout.com/pricing/
+sources:
+- https://www.seekout.com/pricing/
+- https://www.seekout.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: true
+note: Annual billing noted as saving $360/yr ($1,788/yr for Core); 14-day free trial. Higher tiers are
+  quote-based.
+plan_count: 5
+currency: USD
+plans:
+- name: Self-Serve · SeekOut Sourcing Core (Recruit Core) — annual
+  price_text: $149 /mo (paid annually, upfront)
+  price: 149
+  currency: USD
+  period: month
+  unit: per account (3 seats included)
+  included_quota: Unlimited search, 1B+ profiles, AI search, 30+ filters, 500 contact credits/mo, 1,000
+    exports/mo
+- name: Self-Serve · SeekOut Sourcing Core (Recruit Core) — monthly
+  price_text: $179 /mo (billed monthly)
+  price: 179
+  currency: USD
+  period: month
+  unit: per account
+  included_quota: Same as Core
+- name: Sourcing · Scale by Seat (Recruit)
+  price_text: Custom
+  period: none
+  unit: per seat
+  included_quota: 750 contacts/mo/seat, 5,000 exports/mo/seat
+- name: Source + Rediscover · SeekOut Sourcing + Integration (Recruit)
+  price_text: Custom
+  period: none
+  included_quota: ATS rediscovery, unified search, market intelligence
+- name: Tailored · Full Recruiting Funnel (Recruit)
+  price_text: Custom
+  period: none
+  included_quota: Full platform, agentic AI workflows, custom integrations
+rate_limit_statements:
+- Query limits No limits No limits No limits No limits
+- Search results cap Unlimited Unlimited Unlimited Unlimited
+- 500 contact credits/mo
+- 1,000 exports/mo
